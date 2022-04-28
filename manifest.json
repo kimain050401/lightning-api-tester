@@ -1,6 +1,6 @@
 {
   "name": "Lightning API Tester",
-  "description": "Test the API quickly using the Lightning API Tester.",
+  "description": "Testing API safely and quickly with Lightning API Tester.",
   "version": "1.0.0",
   "manifest_version": 3,
   "action": {
