@@ -30,6 +30,6 @@ fetch(url, {
     document.getElementById("value").style.display = "inline-block";
     document.getElementById("code").innerText = "ERROR";
     document.getElementById("code").style.color = "#dd3546";
-    document.getElementById("data").innerHTML = "API's response is not available for one of the following reasons.<br><br>1) Invalid API address.<br><br>2) No Internet connection.<br><br>3) API that does not support https secure connections.";
+    document.getElementById("data").innerHTML = "API's response is not available for one of the following reasons.<br><br>1) Invalid API address<br><br>2) No Internet connection<br><br>3) API that does not support https secure connections<br><br>4) API that does not support GET method<br><br>5) API that does not support CORS";
     console.log(err);
 });
