@@ -5,7 +5,7 @@
 [![GPL 3.0 License](https://img.shields.io/badge/license-GPL--3.0-lightgrey?style=flat)](https://github.com/kimain050401/lightning-api-tester/blob/main/LICENSE)
 
 ## Introduction
-Test the API quickly using the Lightning API Tester.
+Testing API safely and quickly with Lightning API Tester.
 
 ## Preview
 ![Preview](preview.png)
