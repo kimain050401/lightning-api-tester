@@ -1,0 +1,21 @@
+{
+  "name": "Lightning API Tester",
+  "description": "Test the API quickly using the Lightning API Tester.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "html/main.html",
+    "defualt_icon": {
+      "16": "img/applogo.png",
+      "32": "img/applogo.png",
+      "48": "img/applogo.png",
+      "128": "img/applogo.png"
+    }
+  },
+  "icons": {
+    "16": "img/applogo.png",
+    "32": "img/applogo.png",
+    "48": "img/applogo.png",
+    "128": "img/applogo.png"
+  }
+}

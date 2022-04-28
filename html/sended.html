@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightning API Tester</title>
+    <style>
+        @font-face{
+            font-family: 'Pretendard Variable';
+            font-weight: 45 920;
+            font-style: normal;
+            font-display: swap;
+            src: local('Pretendard Variable'), url('/css/PretendardVariable.woff2') format('woff2-variations');
+        }
+        html, body{
+            width: 357px;
+            height: 454px;
+            text-align: center;
+            font-family: 'Pretendard Variable' !important;
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            font-family: 'Pretendard Variable' !important;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script type="text/javascript" src="/js/popper.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header style="background-color: #f2f4f6; width: 100vw; display: flex; text-align: center; height: 50px;">
+        <div style="width: 100vw; text-align: center;">
+            <img src="/img/applogo.png" style="width: 32px; height: 32px; margin: 9px 0px 9px 0px;">
+        </div>
+    </header>
+    <form method="get" class="input-group mb-3" action="/html/sended.html" style="width: 96vw; margin: 10px 2vw 10px 2vw;">
+        <select class="btn btn-outline-secondary dropdown-toggle" name="method">
+            <option selected>GET</option>
+        </select>
+        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="url" id="url">
+        <button class="btn btn-primary" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;" type="submit" id="button-addon1">Send</button>
+    </form>
+    <div class="progress" style="width: 90vw; margin: 20px 5vw 20px 5vw;" id="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%"></div>
+    </div>
+    <div id="value" style="display: none; width: 96vw;">
+        <p style="display: inline; font-weight: 700; bottom: -200px; float: left; margin-left: 8px;">Response</p>
+        <p id="code" style="display: inline; float: right; margin-right: 10px;">Loading..</p>
+        <p style="display: inline; font-weight: 700; float: right; margin-right: 4px;">Status Code </p>
+        <div id="data" style="width: 96vw; height: 300px; border: black 1px solid; border-radius: 4px; display: inline-block; overflow-y: scroll; margin-top: -10px; word-wrap: break-word; text-align: left; padding: 0px 4px; font-size: 0.8rem;">Loading..</div>
+    </div>
+    <script type="text/javascript" src="/js/popup.js"></script>
+</body>
+</html>

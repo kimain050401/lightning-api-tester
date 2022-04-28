@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightning API Tester</title>
+    <style>
+        @font-face{
+            font-family: 'Pretendard Variable';
+            font-weight: 45 920;
+            font-style: normal;
+            font-display: swap;
+            src: local('Pretendard Variable'), url('/css/PretendardVariable.woff2') format('woff2-variations');
+        }
+        html, body{
+            width: 357px;
+            height: 454px;
+            text-align: center;
+            font-family: 'Pretendard Variable' !important;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            font-family: 'Pretendard Variable' !important;
+        }
+        input[type=url]{
+            font-family: 'Pretendard Variable' !important;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script type="text/javascript" src="/js/popper.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/buttons.js"></script>
+</head>
+<body>
+    <header style="background-color: #f2f4f6; width: 100vw; display: flex; text-align: center; height: 50px;">
+        <div style="width: 100vw; text-align: center;">
+            <img src="/img/applogo.png" style="width: 32px; height: 32px; margin: 9px 0px 9px 0px;">
+        </div>
+    </header>
+    <form method="get" class="input-group mb-3" action="/html/sended.html" style="width: 96vw; margin: 10px 2vw 10px 2vw;">
+        <select class="btn btn-outline-secondary dropdown-toggle" style="border-color: #ced4da;" name="method">
+            <option selected>GET</option>
+        </select>
+        <input type="text" class="form-control" aria-label="Text input with dropdown button" name="url">
+        <button class="btn btn-primary" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;" type="submit" id="button-addon1">Send</button>
+    </form>
+    <br>
+    <p style="font-size: 0.8rem;">Rest assured, Lightning API Tester is safe and fast.<br><br>
+        Lighting API Tester is safe because it sends requests directly<br>
+        from Chrome to the API without going through our server.</p>
+    <div style="position: fixed; bottom: 6px; width: 100vw; text-align: center;">
+        <a class="github-button" href="https://github.com/kimain050401" aria-label="Follow @kimain050401 on GitHub">Follow @kimain050401</a>
+        <a class="github-button" href="https://github.com/kimain050401/lightning-api-tester" data-icon="octicon-star" aria-label="Star kimain050401/lightning-api-tester on GitHub">Star</a>
+        <br>
+        <a style="font-size: 0.8rem; color: gray;">v1.0.0</a><a style="font-size: 0.8rem; color: gray;"> | </a><a style="font-size: 0.8rem; color: gray; text-decoration: underline; cursor: pointer;" href="https://github.com/kimain050401/lightning-api-tester/blob/main/README.md" target="_blank">Information Website</a>
+    </div>
+    <!-- <div class="list-group" style="display: inline-block; width: 96vw; overflow-y: scroll; height: 330px; border: #ced4da solid 1px;">
+        <a href="#" class="list-group-item list-group-item-action">The current link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        <a href="#" class="list-group-item list-group-item-action">The current link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        <a href="#" class="list-group-item list-group-item-action">The current link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+    </div> -->
+</body>
+</html>
